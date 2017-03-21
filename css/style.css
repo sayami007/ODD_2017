@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Nunito+Sans");
+* {
+		box-sizing: border-box; }
+
+nav {
+		position: relative;
+		background: #562C36; }
+
+nav .nav-wrapper {
+		position: relative;
+		height: 0%; }
+
+.nav-wrapper {
+		position: fixed; }
+		.nav-wrapper .ribbon {
+				width: 60px;
+				height: 60px;
+				cursor: pointer; }
+		.nav-wrapper .logo-name {
+				font-size: 37px;
+				font-family: 'Raleway'; }
+		.nav-wrapper .v {
+				color: #d50000; }
+
+#sidenav-overlay {
+		z-index: 0; }
+
+.fa-usd {
+		height: 20px;
+		margin-top: -50px; }
+
+.collapsible-body p {
+		text-align: justify;
+		color: white;
+		font-size: 14px; }
+
+.collapsible-body ul li {
+		list-style: disc;
+		color: white; }
+
+.hospital-list .container .row {
+		padding: 50px;
+		border-bottom: 1px solid #ccc; }
+
+.hospital-list .container h4 {
+		color: #e57373; }
+
+.big-image {
+		height: 610px;
+		background-image: url("../images/background.png");
+		background-size: cover;
+		background-repeat: no-repeat; }
+
+#test1 p {
+		font-size: 14px; }
+
+.about {
+		color: #fff;
+		background-color: #282828;
+		position: relative; }
+		.about .container .tabs {
+				background: #282828; }
+				.about .container .tabs a {
+						color: #fff;
+						font-size: 18px; }
+		.about .container h3 {
+				margin-top: 0px;
+				padding-top: 26px; }
+		.about .collapsible-header {
+				color: #151414; }
+		.about .collapsible-body {
+				background: #F4F4F4; }
+				.about .collapsible-body p {
+						color: #212121; }
+
+.infection {
+		height: 400px;
+		background-color: #757575; }
+
+h3 {
+		margin-top: 0px;
+		padding-top: 26px; }
+
+h2 {
+		color: #212121;
+		font-family: 'Open Sans', sans-serif; }
+
+h5 {
+		margin-top: 20px;
+		padding: 20px; }
+
+.distribution {
+		background-color: #F7F7F7;
+		margin-top: -20px; }
+		.distribution .active {
+				color: #AD0000; }
+		.distribution i {
+				cursor: pointer; }
+				.distribution i p {
+						font-size: 18px;
+						color: #212121;
+						font-style: 'Raleway'; }
+		.distribution .third {
+				box-shadow: none; }
+
+.chart {
+		min-width: 400px;
+		height: 400px;
+		margin: 10px auto;
+		opacity: 0.8; }
+		.chart:hover {
+				opacity: 1;
+				transform: scale(1.01); }
+
+.fast-track-info p {
+		text-align: justify;
+		font-size: 18px; }
+
+.section {
+		cursor: pointer; }
+
+.minimized {
+		background: #eeeeee;
+		margin-top: -20px; }
+
+.forum-data {
+		margin-top: 50px;
+		border-radius: 5px;
+		padding: 50px;
+		margin-bottom: 50px; }
+		.forum-data p {
+				color: #000;
+				font-size: 14px; }
+		.forum-data span {
+				color: red; }
+
+.hospital-text {
+		padding-bottom: 20px; }
+		.hospital-text img {
+				width: 75px;
+				height: 75px; }
+
+.our-info {
+		margin-top: 50px;
+		padding: 20px; }
+
+#map {
+		width: 100%;
+		height: 400px;
+		margin-bottom: 40px; }
+
+.footer {
+		margin-top: -20px;
+		height: 300px;
+		position: relative;
+		background: #4A051C; }
+		.footer h4 {
+				color: #fff; }
+		.footer p {
+				color: #fff; }
+		.footer form {
+				color: #fff; }
+		.footer .copyright {
+				position: absolute;
+				bottom: 0; }
+				.footer .copyright p {
+						color: #fff; }
+		.footer img {
+				width: 50px;
+				height: 50px; }
+
+@media only screen and (min-width: 981px) and (max-width: 1225px) {
+		.row .col.l4 {
+				width: 50%; }
+		.row .col.m4 {
+				width: 33.33%; } }
+
+@media only screen and (max-width: 692px) {
+		span {
+				display: none; }
+		.forum-data form {
+				margin-left: 20%; } }
